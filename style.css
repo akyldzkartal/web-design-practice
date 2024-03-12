@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E0E0E0;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.nav-h1{
+    font-size: 32px;
+    color:  rgb(16, 205, 16);
+}
+
+.navbar-content nav{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.navbar-content nav ul {
+    gap: 40px;
+    list-style-type: none;
+    display: flex;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.navbar-content nav ul li::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #4D4D4D;
+    margin: auto;
+    display: block;
+}
+
+.navbar-content nav ul li:hover::after{
+    width: 100%;
+    transition: width 0.2s linear;
+}
+
+.navbar-right{
+    display: flex;
+    font-size: 17px;
+}
+
+.navbar-button{
+    width: 140px;
+    height: 50px;
+    margin-left:40px;
+    border: none;
+    background-color: rgb(16, 205, 16);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-button:hover{
+    background-color: rgb(18, 211, 18);
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+    gap: 200px;
+}
+
+.main-left p {
+    margin: 30px 0px;
+    font-size: 20px;
+}
+
+.main-text{
+    font-size: 80px;
+}
+
+.green-text{
+    display: block;
+    color: rgb(16, 205, 16);
+}
+
+.register-button{
+    border: none;
+    background-color: rgb(16, 205, 16);
+    color: white;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.register-button:hover{
+    background-color: rgb(18, 211, 18);
+}
+
+.main-photo img{
+    height: 470px;
+    width: 470px;
+}
+
+.clients-section{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 100px;
+    height: 200px;
+}
+
+.clients-header{
+    font-size: 40px;
+}
+
+.clients-p{
+    margin-top: 20px;
+}
+
+.clients{
+    width: 80%;
+}
+
+.clients-texts{
+    text-align: center;
+}
+
+.clients-logos{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.clients-logos img{
+    scale: 1.5;
+    padding-bottom: 90px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 170px;
+    font-size: 13px;
+}
+
+.footer-button{
+    border: none;
+    background-color: rgb(16, 205, 16);
+    color: white;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer-button a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
